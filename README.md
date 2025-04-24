@@ -1,2 +1,3 @@
-# HW2-Local-Chabot-using-Ollama
+Local-Chabot-using-Ollama
 Local Chabot using VS Code and Ollama
+This project showcases an interactive chatbot built using LangChain and powered by the LLaMA 3.1 model through Ollama. The chatbot maintains the context of a conversation and generates coherent responses based on user input. It uses a prompt template that incorporates both the conversation history and the current question, which is processed by LangChain's ChatPromptTemplate. The LLaMA model, accessed via OllamaLLM, handles the language generation. A conversational loop captures user input, sends it to the model along with the existing context, and outputs the response. With each exchange, the context is updated to ensure continuity in the dialogue. To start chatting, simply run the script and interact with the bot; type "exit" to end the session.
